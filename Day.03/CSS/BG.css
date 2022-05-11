@@ -1,0 +1,39 @@
+div{
+width: 600px;
+height: 600px;
+border: 1px solid #ccc;
+margin-bottom: 50px ;
+
+}
+
+div.pic1{
+    background: url(../images/bg5.jpg) ;
+    background-size: auto;
+
+
+}
+
+div.pic2{
+    background: url(../images/bg5.jpg) ;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+div.pic3{
+    background: url(../images/bg5.jpg) ;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom 100px right 50px;
+}
+
+div.pic4{
+    background: url(../images/bg5.jpg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+/* 'contain' 이미지 요소의 전체 비율로 맞춰짐 */
+}
+div.pic5{
+    background: url(../images/bg5.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+/* 'cover' 이미지가 요소를 꽉 채우고 나머지는 잘림 */
+}
