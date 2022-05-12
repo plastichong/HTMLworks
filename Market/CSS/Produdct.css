@@ -1,3 +1,11 @@
+#container{
+    width: 800px;
+    margin: 20 auto;
+    border: 1px solid #222;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
 /* 메뉴스타일 */
 nav a{
     text-decoration: none;
