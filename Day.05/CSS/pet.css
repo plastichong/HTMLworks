@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{margin: 0;padding: 0;}
+
+#container{width: 1000px;margin: 0 auto;}
+
+header{height: 80px;background-color: #006699;}
+
+header #logo{width: 200px;float: left; font-family: 'Nanum Pen Script', cursive; ; font-size: 30px;}
+
+.l{color: #fff; padding: 3px 20px;}
+
+header nav{width: 700px;float: right;}
+
+nav ul{list-style: none;text-align: right;margin-right: 100px;}
+
+nav ul li{display: inline;line-height: 80px;margin: 10px;}
+
+nav ul li a{color: #fff;text-decoration: none;}
+
+nav ul li a:hover{color: gold;}
+
+section h1:hover{color: darkorange;}
+
+.s{color: rgb(0, 0, 0);padding: 10px;}
