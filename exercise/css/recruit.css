@@ -1,10 +1,11 @@
 
- #container{ 
-    margin: 0px auto;
+#container{
+    margin: 0 auto;
     background-color: black;
     width: 100%;
     height: 600px;
     border: 1px solid black;
+    padding: 5px;
 
 } 
 section{
@@ -30,7 +31,7 @@ background-position: bottom right;
 
     h1{
         width: 500px;
-        margin: 20px auto;
+        margin: 10px auto;
         text-align: center;
         background-color: black;
         color: white;
@@ -48,4 +49,11 @@ background-position: bottom right;
         font-weight: bold;
         color: rgb(196, 51, 51);
     }
+<<<<<<< Updated upstream
     
+=======
+
+    #d{
+        margin-top: 20px;
+    }
+>>>>>>> Stashed changes
