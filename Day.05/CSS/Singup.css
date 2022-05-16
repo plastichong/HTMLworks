@@ -14,10 +14,12 @@ ul li{
 ul li label{
 width: 120px;
 float: left;
+text-align: right;
+margin-right: 10px;
 
 }
 ul li input{
-    width: 250px ;
+    width: 200px ;
     height: 30px;
 }
 
@@ -29,3 +31,6 @@ select{
 #button{width: 400px; margin: 20px auto; text-align: center;}
 #button input{width: 150px; height: 50px; font-size: 20px; margin: 5px;}
 #button input:hover{background-color: rgb(16,189,53); color: #fff; border-color: #fff ;}
+
+#umail{width: 120px;
+height: 30px;}
