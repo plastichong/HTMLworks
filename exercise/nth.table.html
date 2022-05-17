@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth.table</title>
+</head>
+<style>
+    #container{margin: 0 auto;
+    width: 100%;}
+    #contants table{
+        border: 1px solid #aaa;  border-collapse: collapse;
+        width: 800px;
+        height: 150px;
+        margin: 0 auto;}
+
+table tr td{border: 1px solid #aaa;
+   }
+
+    td:nth-child(2n+1){background-color: #eee; font-weight: bold;
+    text-align: center; width: 100px;}
+    tr:nth-child(2){}
+</style>
+<body>
+<div id = "container">
+
+    <div id = "contants">
+        <table>
+            <colgroup>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <tr>
+                <td>이름</td>
+                <td></td>
+                <td>연락처</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>주소</td>
+                <td colspan="3"></td>
+               
+            </tr>
+            <tr>
+                <td>자기소개</td>
+                <td colspan="3"></td>
+           
+            </tr>
+        </table>
+        
+    </div>
+</div>
+    
+</body>
+</html>
