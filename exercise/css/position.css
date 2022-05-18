@@ -1,0 +1,16 @@
+#container{
+    margin: 0 auto;
+    background: url(./bg.jpg);
+    width: 640px; height: 400px;
+    position: relative;
+    top: 100px;
+}
+
+#container h1{
+    font-size: 5em;
+    color:white;
+    position: absolute;
+    bottom:35px;
+    right:80px ;
+}
+

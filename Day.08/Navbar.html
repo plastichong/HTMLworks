@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        li{list-style: none;}
+        .gnb li{display: inline;}
+        .gnb li a{
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: brown;
+            color: #fff;
+        }
+        .gnb li a:link, a:visited{text-decoration: none;}
+        .gnb li a:hover{text-decoration: underline;
+                        background: #000;
+                        color: #fff;
+                    }
+        .gnb li a:active{background-color: red;}
+    </style>
+</head>
+<body>
+    <ul class = "gnb">
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Community</a></li>
+    </ul>
+    
+</body>
+</html>
