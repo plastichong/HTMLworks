@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+/* 모바일 환경 */
+#container{
+    width: 100%;margin: 0 auto;background: #f00;
+}
+#container h1{font-size: 2em;}
+header{height: 100px; border: 1px solid #fff; color: #fff;padding: 10px;}
+section{height: 600px; border: 1px solid #fff; color: #fff;padding: 10px;}
+footer{height: 100px; border: 1px solid #fff; color: #fff;padding: 10px;}
+
+/* 태블릿 환경 지정*/
+
+@media screen and (min-width:780px) {
+    #container{background: #0f0;}
+    
+}
+
+/* pc 환경 지정*/
+@media screen and (min-width: 1024px){
+    #container{
+        width: 1000px;
+        background: #00f;
+    }
+
+}
+    

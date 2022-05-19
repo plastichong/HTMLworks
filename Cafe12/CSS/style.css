@@ -1,0 +1,58 @@
+/* 모바일 환경 780px 미만*/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+#container{width: 100%;margin: 0 auto;height: 100%;}
+
+/* header 영역 */
+header{width: 100%; height: 300px;}
+nav{width: 100%;height: 60px;background: black;position: fixed;top: 0;}
+#main-nav{list-style: none;text-align: center;}
+#main-nav li{display: inline-block;margin: 17px;}
+#main-nav li a{text-decoration: none; color: #fff;}
+#main-nav li a:hover{color: yellowgreen;}
+#main-pic img{width: 100%;height: 240px;}
+
+/* section 영역 */
+section{height: 380px;padding:10px 5%; }
+.page-title{margin-top: 30px;}
+.content{margin: 10px auto;padding: 10px;}
+.photo{display: none;}
+section p, h2, li{line-height: 2;}
+#choice ol{padding-left: 30px;}
+section:nth-child(2n+1){background: #eee;}
+
+/* footer 영역 */
+
+footer{height: 200px;border-top: 2px solid#222;}
+#bottomMenu{list-style: none;margin: 10px 10px 10px 40px;}
+#bottomMenu li{display: inline-block; margin: 10px 0;
+border-right: 1px solid#ccc;padding: 0 5px;}
+#bottomMenu li:nth-of-type(1){margin-left: -25px;}
+#bottomMenu li a{text-decoration: none;color: #444;}
+#bottomMenu li:last-child{border: none;}
+address{padding-left: 20px;font: 15px normal;color: #444;line-height: 2;}
+
+/* 태블릿 환경  */
+
+@media screen and (min-width:780px) {
+    header{width: 100%;height: 300px;}
+    #main-nav{list-style: none;text-align: right;margin-right: 100px;}
+    #main-pic img{width: 100%;height:290px;}
+    section{height: 430px;}
+    #intro, #choice{width: 50%;float: left;border: 1px solid rgb(233, 225, 225);}
+    #map{clear: both;}
+    
+}
+/* pc 환경 */
+@media screen and (min-width:1000px){
+    #container{width:1000px; margin: 0 auto;border: 1px solid #ccc;}
+    header{width:100%;height: 320px;}
+    nav{width: 1000px;position: fixed;top: 0;}
+    #main-nav{list-style: none;text-align: right;margin-right: 100px;}
+    #main-pic img{width: 1000px;height: 310px;}
+    section{height: 350px;}
+    #intro, #map, #choice{width: 100%;}
+    .photo{display: block;}
+    #intro .photo, #map .photo{float: left; margin-right: 20px;}
+    #choice .photo{float: right;margin: 0 10px 0 20px;}
+    section img{border:1px solid #ccc;}
+}
