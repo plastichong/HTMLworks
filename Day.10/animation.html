@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation속성</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            background-color: darkseagreen;
+            position: absolute;
+            top: 200px;
+            left: 300px;
+            /* animation-name: change-bg; */
+            /* animation-duration: 2s; */
+            border: 1px solid black;
+            animation: 600s change-bbb; 
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes change-bbb {
+            /* from{
+                background:darkseagreen ;
+                border: 1px solid black;
+            } */
+
+            from{
+                background: rgb(107, 156, 189);
+                /* border: 1px solid black; */
+                border-radius: 50%;
+            }
+            to{
+                background:darkseagreen ;
+                border: 1px solid black;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div>1</div>
+    
+</body>
+</html>
