@@ -12,21 +12,20 @@
     position: relative;
     overflow: hidden;
     height: 200px;
-   
 }
 
 .productList .caption{
     width: 300px; height: 200px;
     background-color: rgba(0, 0, 0, 0.6);
     transition: 1s; 
- 
-    
 }
 
 .productList li:hover .caption{
     transform: translateY(-205px);
 }
 
-.productList li h2, p{color: white; text-align: center;line-height: 2em;
-                padding: 10px;
+.productList li h2, p{
+    color: white; text-align: center;
+    line-height: 2em;
+    padding: 10px;
 }
