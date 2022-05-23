@@ -1,0 +1,15 @@
+h1, p, ul{margin: 0;padding: 0;}
+li{list-style:none;}
+.gallery{padding: 0;}
+.gallery li{
+    float:left;width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+.gallery p{padding: 10px;text-align: justify;font-size:14px;}
+.gallery h3{padding: 5px;}
+
+.gallery li:nth-of-type(1) h3{background: #daa;}
+.gallery li:nth-of-type(2) h3{background: #abc;}
+.gallery li:nth-of-type(3) h3{background: #eba;}
+.gallery li:nth-of-type(4) h3{background: #aa7;}
